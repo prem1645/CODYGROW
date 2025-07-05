@@ -1,0 +1,110 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f5f5f5;
+  padding: 10px 6% 25px;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 260px;
+  max-width: 350px;
+  margin: 20px;
+}
+
+.brand-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-logo {
+  width: 80px;
+  height: auto;
+}
+
+.brand-name-footer {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+
+.feedback p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.email-input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  max-width: 280px;
+  margin-top: 10px;
+}
+
+.email-input-group input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.email-input-group button {
+  background-color: #E6922E;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.email-input-group button img {
+  width: 20px;
+  height: 20px;
+}
+
+.links h3,
+.info h3 {
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.link-columns {
+  display: flex;
+  gap: 40px;
+}
+
+.link-columns ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-columns li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #333;
+}
+
+.info p {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.social-icons div {
+  width: 20px;
+  height: 20px;
+  background-color: #E6922E;
+}

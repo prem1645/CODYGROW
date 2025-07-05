@@ -1,0 +1,81 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: white;
+  height: 100%;
+}
+.bg-logo {
+  width: 100%;
+}
+
+.titler {
+  font-size: 65px;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 27px;
+  color:black;
+  margin: 0 auto 30px;
+  max-width: 600px;
+  line-height: 1.2;
+}
+
+.reset-input {
+  padding: 15px;
+  width: 525px;
+  border-radius: 8px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  font-size: 18px;
+  background-color: transparent;
+  color: black;
+}
+
+.resend-text {
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.reset-btn {
+  display: block;
+  margin: 0 auto 20px;
+  background-color:transparent;
+  color:black;
+  border: 5px solid #ED9C2A;     /* Yellow border added */
+  padding: 14px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  width: 200px;
+}
+
+
+.back-btn {
+  font-size: 18px;
+  color:black;
+  background: none;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.reset-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* Vertical centering */
+  align-items: center;          /* Horizontal centering */
+  min-height: 100vh;            /* Full viewport height */
+  text-align: center;
+  padding: 40px 20px;           /* Some padding for spacing */
+  background-image: url('C:/Users/WELCOME/Desktop/dataScience/my-app/src/assets/images/logo2.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 700px;       /* Adjust image size */
+}

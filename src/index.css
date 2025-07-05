@@ -1,0 +1,15 @@
+/* Usually in index.css or App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;     /* ✅ Prevents scroll */
+  height: 100%;         /* ✅ Full height */
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;     /* Just in case */
+}

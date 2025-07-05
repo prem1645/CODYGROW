@@ -1,0 +1,151 @@
+.loginpage-root {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.loginpage-root * {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.login-left {
+  flex: 1;
+  background-color: #0d1b2a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+  background-image: url('C:/Users/WELCOME/Desktop/dataScience/my-app/src/assets/images/Image (4).png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+
+.login-highlight {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.login-subtext {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.login-right {
+  flex: 1;
+  background: url('C:/Users/WELCOME/Desktop/dataScience/my-app/src/assets/images/Untitled design.png') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form-card {
+  background: rgba(49, 47, 47, 0.1);
+  backdrop-filter: blur(30px);
+  padding: 30px 40px;
+  border-radius: 20px;
+  width: 350px;
+  color: white;
+}
+
+.login-title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-input-group {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input-group label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: white;
+}
+
+.login-input-group input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.login-options a {
+  color: white;
+  text-decoration: none;
+}
+
+.login-google-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.login-google-btn {
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.login-google-btn img {
+  height: 20px;
+  width: 20px;
+}
+
+.login-submit-btn {
+  width: 50%;
+  background: transparent;
+  border: 5px solid #ED9C2A;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 10px 0;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.login-register-link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.login-register-link span {
+  color: white;
+  cursor: pointer;
+}
+.login-text-wrapper {
+  margin-left:-49px; 
+}
+

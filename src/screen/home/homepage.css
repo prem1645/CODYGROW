@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px 6% 40px;
+  overflow: hidden;
+
+  background-image: url('C:/Users/WELCOME/Desktop/dataScience/my-app/src/assets/images/hdr.jpg'); /* 👈 change this to your file name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-content {
+  flex: 1;
+  z-index: 2;
+  color: white;
+  padding-top: 10px;
+  padding-right: 40px;
+}
+
+.hero-content h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #e6e6e6;
+}
+
+.btn-group {
+  display: flex;
+  gap: 50px;
+  
+}
+
+.btn-group button {
+  padding: 12px 35px;
+  border: 2px solid #507BE2;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #355296;
+  color: white;
+  transition: background-color 0.3s;
+  margin-top: 71px;
+}
+
+.btn-group button:hover {
+  background-color: #ffa733;
+}
+
+/* About Section with Spline 3D */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 6% 80px;
+  background-color: #f5f5f5;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.about-left {
+  flex: 1;
+  min-width: 300px;
+  height: 500px;
+}
+
+.about-left canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.about-right {
+  flex: 1;
+  min-width: 300px;
+  z-index: 2;
+}
+
+.about-right h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 25px;
+}
+
+.about-right p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Services Section */
+.services-section {
+  padding: 85px 6% 95px;
+  background-color: white;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.services-section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: black;
+  font-weight: 600;
+}
+
+.services-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.services-row {
+  display: flex;
+  gap: 60px;
+}
+
+.top-row {
+  justify-content: center;
+}
+
+.bottom-row {
+  justify-content: center;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+}
+
+.circle-btn {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: white;
+  border: 3px solid #E6922E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, background-color 0.3s;
+  cursor: pointer;
+}
+
+.circle-btn:hover {
+  transform: translateY(-5px);
+  background-color: #fff6ef;
+}
+
+.circle-btn img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.service-item span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #061a44;
+  margin-top: 12px;
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .hero-content {
+    padding: 0;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .about-left {
+    height: 400px;
+  }
+
+  .about-right h2 {
+    font-size: 2.2rem;
+  }
+
+  .about-right p {
+    font-size: 1.1rem;
+  }
+
+  .services-section h2 {
+    font-size: 2rem;
+  }
+
+  .circle-btn {
+    width: 100px;
+    height: 100px;
+  }
+
+  .service-item span {
+    font-size: 0.9rem;
+  }
+
+  .services-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+
+
+
